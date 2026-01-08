@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@layer theme, base, components, utilities;
+
+@theme {
+    --font-main: "Pacifico", cursive;
+    --font-sec: cursive;
+}
+
+@layer utilities {
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-linear-to-r from-[#F29724] via-[#ca1023c4] to-[#c90519];
+    }
+}
