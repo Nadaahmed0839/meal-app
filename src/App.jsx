@@ -2,13 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import SideNav from './components/SideNav/SideNav';
 import Home from './components/Home/Home';
-import Footer from './components/Footer/Footer';
-import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, router, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
-import MealDetails from './components/mealDetails/mealDetails';
-
+import MealDetails from './components/MealDetails/MealDetails'
 
 
 function App() {
